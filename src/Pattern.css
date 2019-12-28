@@ -1,0 +1,33 @@
+.pattern {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  background-color: #282a36;
+  z-index: -3;
+  text-align: center;
+}
+
+.pattern-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pattern-line {
+  width: 1px;
+  height: 100vh;
+  background-color: #2d2e3b;
+  /* background-color: #fff; */
+}
+
+@media only screen and (max-width: 768px) {
+  .pattern {
+    width: 150%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .pattern {
+    width: 200%;
+  }
+}
