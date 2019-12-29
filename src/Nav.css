@@ -81,8 +81,8 @@ li {
 }
 
 .logo-li:hover .logo {
-  transform: scale(1.1) translate(0, -.3rem);
-  -webkit-transform: scale(1.1) translate(0, -.3rem);
+  transform: scale(1.1) translate(0, -.2rem);
+  -webkit-transform: scale(1.1) translate(0, -.2rem);
 }
 
 .logo-li:hover .logo-shadow {
