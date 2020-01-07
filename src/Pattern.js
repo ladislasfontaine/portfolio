@@ -3,20 +3,20 @@ import './Pattern.css'
 
 function Pattern () {
   return (
-    <div class='pattern'>
-      <div class='pattern-flex'>
-        <div class='pattern-line' />
-        <div class='pattern-line' />
-        <div class='pattern-line' />
-        <div class='pattern-line' />
-        <div class='pattern-line' />
-        <div class='pattern-line' />
-        <div class='pattern-line' />
-        <div class='pattern-line' />
-        <div class='pattern-line' />
-        <div class='pattern-line' />
-        <div class='pattern-line' />
-        <div class='pattern-line' />
+    <div className='pattern'>
+      <div className='pattern-flex'>
+        <div className='pattern-line' />
+        <div className='pattern-line' />
+        <div className='pattern-line' />
+        <div className='pattern-line' />
+        <div className='pattern-line' />
+        <div className='pattern-line' />
+        <div className='pattern-line' />
+        <div className='pattern-line' />
+        <div className='pattern-line' />
+        <div className='pattern-line' />
+        <div className='pattern-line' />
+        <div className='pattern-line' />
       </div>
     </div>
   )
