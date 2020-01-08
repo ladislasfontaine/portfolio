@@ -12,6 +12,10 @@ function Work () {
             <h1>
               {project.name}
             </h1>
+            <h3>
+              {project.topic}
+            </h3>
+            <img src={`${project.mainImage}`} alt='Main' />
           </Link>
         </div>
       )}
