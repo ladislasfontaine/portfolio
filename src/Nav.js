@@ -26,10 +26,21 @@ function Nav () {
       </ul>
       <ul className='nav-right'>
         <li className='icon icon-github'>
-          <i className='fab fa-github' />
+          <a
+            href='https://github.com/ladislasfontaine'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <i className='fab fa-github' />
+          </a>
         </li>
         <li className='icon icon-mail'>
-          <i className='far fa-envelope' />
+          <a
+            href='mailto:fontaine.ladislas@gmail.com'
+            rel='noopener noreferrer'
+          >
+            <i className='far fa-envelope' />
+          </a>
         </li>
       </ul>
     </nav>

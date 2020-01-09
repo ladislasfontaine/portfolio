@@ -1,5 +1,9 @@
 .nav {
-  padding: 2rem 2.8rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1.8rem 2rem;
+  margin-bottom: 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,10 +26,20 @@ li {
   margin-left: 3rem;
 }
 
+.icon {
+  opacity: 0.6;
+  -webkit-transition: opacity .4s; /* For Safari 3.1 to 6.0 */
+  transition: opacity .4s;
+}
+
+.icon:hover {
+  opacity: 1;
+}
+
 .button {
   text-transform: uppercase;
   position: relative;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   transition: transform .4s;
   font-weight: bold;
   letter-spacing: .25rem;
@@ -88,4 +102,38 @@ li {
 .logo-li:hover .logo-shadow {
   transform: scale(.8);
   -webkit-transform: scale(.8);
+}
+
+@media only screen and (max-width: 768px) {
+  .nav {
+    position: absolute;
+    padding: 0.6rem 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .nav {
+    position: absolute;
+    padding: 0.6rem 0.6rem;
+  }
+
+  .logo {
+    height: 30px;
+    font-size: 1.6rem;
+  }
+
+  .button {
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    height: 31px;
+  }
+
+  .button,
+  .icon {
+    margin-left: 1rem;
+  }
+
+  i {
+    font-size: 20px;
+  }
 }

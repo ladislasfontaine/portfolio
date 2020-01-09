@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css'
+import './Work.css'
 import { Link } from 'react-router-dom'
 import * as Constants from './constants'
 
