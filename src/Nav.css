@@ -36,6 +36,16 @@ li {
   opacity: 1;
 }
 
+.icon-github img {
+  height: 30px;
+  width: 30px;
+}
+
+.icon-mail img {
+  height: 40px;
+  width: 40px;
+}
+
 .button {
   text-transform: uppercase;
   position: relative;
@@ -46,15 +56,22 @@ li {
   height: 31px;
   display: flex;
   align-items: center;
+  opacity: 0.6;
+}
+
+.active {
+  opacity: 1;
 }
 
 .button:hover {
+  opacity: 1;
   color: #2d2e3b;
   transform: scale(.9);
   -webkit-transform: scale(.9);
 }
 
 .button::after {
+  opacity: 1;
   content: '';
   display: block;
   position: absolute;
@@ -133,7 +150,9 @@ li {
     margin-left: 1rem;
   }
 
-  i {
-    font-size: 20px;
+  .nav-right img {
+    transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    -webkit-transform: scale(0.8, 0.8);
   }
 }

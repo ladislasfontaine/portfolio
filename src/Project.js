@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import './App.css'
 import './Work'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import * as Constants from './constants'
 
 function Project ({ match }) {
   useEffect(() => {
-    console.log(Constants.projects[match.params.id - 1])
-    console.log(match.params.id)
+    // console.log(Constants.projects[match.params.id - 1])
+    // console.log(match.params.id)
   }, [])
 
   const currentProject = Constants.projects[match.params.id - 1]
