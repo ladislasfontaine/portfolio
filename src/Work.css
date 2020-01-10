@@ -1,4 +1,15 @@
+.allProjectsContainer {
+
+}
+
+.oneProjectContainer {
+  margin-bottom: 8rem;
+  background-color: salmon;
+}
+
 img {
-  width: 40%;
+  width: 0;
+  height: 0;
   object-fit: cover;
+  visibility: hidden;
 }

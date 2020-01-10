@@ -6,9 +6,12 @@ import * as Constants from './constants'
 
 function Work () {
   return (
-    <div>
+    <div class='allProjectsContainer'>
       {Constants.projects.map(project =>
-        <div key={project.id}>
+        <div class='oneProjectContainer' key={project.id}>
+          <Link to={`/project/${project.id}`}>
+            <img src={`${project.mainImage}`} alt='Main' />
+          </Link>
           <Link to={`/project/${project.id}`}>
             <h1>
               {project.name}
@@ -16,7 +19,6 @@ function Work () {
             <h3>
               {project.topic}
             </h3>
-            <img src={`${project.mainImage}`} alt='Main' />
           </Link>
         </div>
       )}
