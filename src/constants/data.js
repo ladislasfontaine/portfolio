@@ -1,20 +1,20 @@
 export const projects = [
   {
     id: 1,
-    name: 'Bordeaux Eventbrite',
+    name: 'BordeauxEvent',
     topic: 'Web Development',
     description:
       'Eventbrite type website to book and create all sorts of events.',
     languages: ['Ruby', 'Ruby on Rails'],
-    mainImage: 'bdx_eventbrite.png'
+    mainImage: 'surf.png'
   },
   {
     id: 2,
-    name: 'Coach Me',
+    name: 'CoachMe',
     topic: 'Web Development',
     description: 'Doctolib of sports to find your coach in any sport.',
     languages: ['Ruby', 'Ruby on Rails'],
-    mainImage: 'bdx_eventbrite.png'
+    mainImage: 'surf.png'
   },
   {
     id: 3,
@@ -22,6 +22,6 @@ export const projects = [
     topic: 'Web Development',
     description: 'Memory Game to have fun using ReactJS.',
     languages: ['ReactJS'],
-    mainImage: 'bdx_eventbrite.png'
+    mainImage: 'surf.png'
   }
 ]
