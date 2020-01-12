@@ -62,8 +62,8 @@
 }
 
 .smallImage {
-  width: 10rem;
-  height: 10rem;
+  width: 100%;
+  height: 100%;
   z-index: 2;
   border-radius: 50%;
   object-fit: contain;
@@ -116,4 +116,121 @@
 .lastAboutSection {
   margin: 4rem 0;
   font-size: 2.2rem;
+}
+
+@media only screen and (max-width: 1054px) {
+  .aboutSection {
+    width: 42rem;
+    height: 30rem;
+    margin-bottom: 6rem;
+  }
+
+  .aboutSectionText {
+    width: 60%;
+    height: 16rem;
+  }
+
+  .firstAboutSection p {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutSection {
+    width: 70%;
+    height: 18rem;
+    margin-bottom: 2rem;
+  }
+
+  .firstAboutSection {
+    margin-top: 4rem;
+  }
+
+  .firstAboutSection h1 {
+    font-size: 2rem;
+  }
+  .firstAboutSection p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .aboutSectionContent {
+    flex-direction: column;
+  }
+
+  .smallImageBackground {
+    margin-top: 2rem;
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .aboutSectionText {
+    width: 100%;
+    text-align: center;
+  }
+
+  .aboutSectionText h5 {
+    font-size: 1.4rem;
+  }
+
+  .aboutSectionText h4,
+  .aboutSectionText h4.iesegName {
+    font-size: 2rem;
+  }
+
+  .lastAboutSection {
+    margin: 4rem 0;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .aboutSection {
+    width: 16rem;
+    height: 18rem;
+    margin-bottom: 2rem;
+  }
+
+  .firstAboutSection {
+    margin-top: 4rem;
+  }
+
+  .firstAboutSection h1 {
+    font-size: 2rem;
+  }
+  .firstAboutSection p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .aboutSectionContent {
+    flex-direction: column;
+  }
+
+  .smallImageBackground {
+    margin-top: 2rem;
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .aboutSectionText {
+    width: 100%;
+    text-align: center;
+  }
+
+  .aboutSectionText h5 {
+    font-size: 1.4rem;
+  }
+
+  .aboutSectionText h4,
+  .aboutSectionText h4.iesegName {
+    font-size: 2rem;
+  }
+
+  .lastAboutSection {
+    margin: 4rem 0;
+    font-size: 1.8rem;
+    text-align: center;
+  }
 }
