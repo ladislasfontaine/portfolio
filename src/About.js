@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
 import './About.css'
+import FooterSentence from './FooterSentence'
 
 function About () {
   return (
@@ -85,6 +86,7 @@ function About () {
       <div className='lastAboutSection'>
         <p className='green'>Looking for opportunities.</p>
       </div>
+      <FooterSentence />
     </div>
   )
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
 import './Work.css'
+import FooterSentence from './FooterSentence'
 import { Link } from 'react-router-dom'
 import * as Constants from './constants'
 
@@ -26,6 +27,7 @@ function Work () {
           </Link>
         </div>
       )}
+      <FooterSentence />
     </div>
   )
 }
