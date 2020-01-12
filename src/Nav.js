@@ -4,16 +4,14 @@ import './Nav.css'
 import { Link } from 'react-router-dom'
 
 function Nav () {
-
-  function handleActiveClass(e) {
+  function handleActiveClass (e) {
     const workButton = document.querySelector('a.work')
     const aboutButton = document.querySelector('a.about')
-    
+
     if (e.target.classList.contains('logo')) {
       workButton.classList.add('active')
       aboutButton.classList.remove('active')
-    }
-    else if (!e.target.classList.contains('active')) {
+    } else if (!e.target.classList.contains('active')) {
       workButton.classList.toggle('active')
       aboutButton.classList.toggle('active')
     }
@@ -54,7 +52,10 @@ function Nav () {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <img src='github-icon.png' alt='' />
+            <img
+              src={process.env.PUBLIC_URL + '/github-icon.png'}
+              alt='GitHub'
+            />
           </a>
         </li>
         <li className='icon icon-mail'>
@@ -62,7 +63,7 @@ function Nav () {
             href='mailto:fontaine.ladislas@gmail.com'
             rel='noopener noreferrer'
           >
-            <img src='mail-icon.svg' alt='Email' />
+            <img src={process.env.PUBLIC_URL + '/mail-icon.svg'} alt='Email' />
           </a>
         </li>
       </ul>
