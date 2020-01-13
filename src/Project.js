@@ -3,6 +3,7 @@ import './App.css'
 import './Work'
 // import { Link } from 'react-router-dom'
 import * as Constants from './constants'
+import Footer from './Footer'
 
 function Project ({ match }) {
   useEffect(() => {
@@ -24,6 +25,7 @@ function Project ({ match }) {
       <h3>My Role</h3>
       <h3>Website</h3>
       <img src='' alt='' />
+      <Footer project={currentProject} />
     </div>
   )
 }
