@@ -1,12 +1,13 @@
 .Footer {
   position: relative;
+  bottom: -7rem;
   height: 10rem;
   background-color: #2d2e3b;
-  display: flex;
-  align-items: center;
 }
 
 .insideFooter {
+  position: relative;
+  top: 2.4rem;
   height: 4rem;
   width: 100%;
   background-color: #2d2e3b;
@@ -64,6 +65,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: 3.4rem;
+  cursor: pointer;
 }
 
 .footerTopButton img {

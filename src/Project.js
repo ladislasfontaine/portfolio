@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import './App.css'
+import './Project.css'
 import './Work'
 // import { Link } from 'react-router-dom'
 import * as Constants from './constants'
@@ -14,7 +15,7 @@ function Project ({ match }) {
   const currentProject = Constants.projects[match.params.id - 1]
 
   return (
-    <div>
+    <div className='Project'>
       <h3>
         {currentProject.name}
       </h3>
