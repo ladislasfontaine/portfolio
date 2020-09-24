@@ -21,14 +21,14 @@ function Nav() {
     <nav className="nav">
       <ul className="nav-left">
         <li className="logo-li">
-          <Link to="/" className="logo" onClick={handleActiveClass}>
+          <Link to="/portfolio/" className="logo" onClick={handleActiveClass}>
             L
           </Link>
           <div className="logo-shadow" />
         </li>
         <li>
           <Link
-            to="/"
+            to="/portfolio/"
             className="button work active"
             onClick={handleActiveClass}
           >
@@ -37,7 +37,7 @@ function Nav() {
         </li>
         <li>
           <Link
-            to="/about"
+            to="/portfolio/about"
             className="button about"
             onClick={handleActiveClass}
           >

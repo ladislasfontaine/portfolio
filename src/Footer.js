@@ -28,14 +28,14 @@ function Footer({ project }) {
   return (
     <div className="Footer">
       <div className="insideFooter">
-        <Link to={`/project/${previousId()}`} className="footerButton">
+        <Link to={process.env.PUBLIC_URL + "/project/" + previousId()} className="footerButton">
           Prev
         </Link>
         <div className="footerTopButton" onClick={scrollToTop}>
           <img src={process.env.PUBLIC_URL + "/icon-arrow.svg"} alt="Arrow" />
           <span>Top</span>
         </div>
-        <Link to={`/project/${nextId()}`} className="footerButton">
+        <Link to={process.env.PUBLIC_URL + "/project/" + nextId()} className="footerButton">
           Next
         </Link>
       </div>

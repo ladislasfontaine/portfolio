@@ -10,14 +10,14 @@ function Work() {
     <div className="allProjectsContainer">
       {Constants.projects.map(project =>
         <div className="oneProjectContainer" key={project.id}>
-          <Link to={`/project/${project.id}`} className="projectMainImage">
+          <Link to={`${process.env.PUBLIC_URL}/project/${project.id}`} className="projectMainImage">
             <img src={`${project.mainImage}`} alt="Main" className="main" />
             <div className="projectLabel">
               CASE STUDY 0{project.id}
             </div>
             <img src="shadow.png" alt="Shadow" className="shadow" />
           </Link>
-          <Link to={`/project/${project.id}`} className="projectTitle">
+          <Link to={`${process.env.PUBLIC_URL}/project/${project.id}`} className="projectTitle">
             <h1>
               {project.name}
             </h1>
