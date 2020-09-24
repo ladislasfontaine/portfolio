@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio_lad_react/static/css/main.b3e892ee.chunk.css",
+    "main.js": "/portfolio_lad_react/static/js/main.893f25c2.chunk.js",
+    "main.js.map": "/portfolio_lad_react/static/js/main.893f25c2.chunk.js.map",
+    "runtime-main.js": "/portfolio_lad_react/static/js/runtime-main.5d0038ea.js",
+    "runtime-main.js.map": "/portfolio_lad_react/static/js/runtime-main.5d0038ea.js.map",
+    "static/js/2.128b0b47.chunk.js": "/portfolio_lad_react/static/js/2.128b0b47.chunk.js",
+    "static/js/2.128b0b47.chunk.js.map": "/portfolio_lad_react/static/js/2.128b0b47.chunk.js.map",
+    "index.html": "/portfolio_lad_react/index.html",
+    "precache-manifest.2d47137faf86f2f374937f0224136c13.js": "/portfolio_lad_react/precache-manifest.2d47137faf86f2f374937f0224136c13.js",
+    "service-worker.js": "/portfolio_lad_react/service-worker.js",
+    "static/css/main.b3e892ee.chunk.css.map": "/portfolio_lad_react/static/css/main.b3e892ee.chunk.css.map",
+    "static/js/2.128b0b47.chunk.js.LICENSE.txt": "/portfolio_lad_react/static/js/2.128b0b47.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5d0038ea.js",
+    "static/js/2.128b0b47.chunk.js",
+    "static/css/main.b3e892ee.chunk.css",
+    "static/js/main.893f25c2.chunk.js"
+  ]
+}
