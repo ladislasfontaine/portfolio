@@ -19,7 +19,7 @@ function Work() {
           </Link>
           <Link to={`${process.env.PUBLIC_URL}/project/${project.id}`} className="projectTitle">
             <h1>
-              {project.name}
+              {project.shortName}
             </h1>
             <h2>
               {project.topic}
