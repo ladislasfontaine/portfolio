@@ -16,14 +16,27 @@ function Project({ match }) {
 
   return (
     <div className="Project">
-      <h3>
-        {currentProject.name}
-      </h3>
-      <p>
-        {currentProject.description}
-      </p>
-      <img src="" alt="" />
-      <h3>My Role</h3>
+      <div className="Title">
+        <div className="titleText">
+          <h3>
+            {currentProject.name}
+          </h3>
+          <p>
+            Web application made for economic and associative players that reinvent our society to make it more resilient. 
+          </p>
+        </div>
+        <div className="diapoImages"></div>
+      </div>
+
+      <div className="Role">
+        <h3>My Role</h3>
+        <ol>
+        {currentProject.roles.map((role, index) =>
+          <li>0{index + 1} - {role}</li>
+        )}
+        </ol>
+      </div>
+
       <h3>Website</h3>
       <img src="" alt="" />
       <Footer project={currentProject} />

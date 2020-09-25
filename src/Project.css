@@ -1,3 +1,33 @@
+.Project {
+  
+}
+
 .Project h3 {
-  margin-bottom: 40rem;
+  /* margin-bottom: 40rem; */
+}
+
+.Project p {
+  font-family: 'Akkurat', sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+
+.Title {
+  max-width: 880px;
+  height: 400px;
+  margin: 0 auto 6rem auto;
+  display: flex;
+}
+
+.titleText {
+  width: 93%;
+  flex-grow: 1;
+  margin-right: 7%;
+}
+
+.diapoImages {
+  width: 93%;
+  flex-grow: 1;
+  background-color: salmon;
+  margin-left: 7%;
 }

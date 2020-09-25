@@ -17,8 +17,8 @@ function App() {
         <Pattern />
         <Switch>
           <Route path={process.env.PUBLIC_URL + "/"} exact component={Work} />
-          <Route path={process.env.PUBLIC_URL + "/about"} component={About} />
-          <Route path={process.env.PUBLIC_URL + "/project/:id"} component={Project} />
+          <Route path={process.env.PUBLIC_URL + "/about/"} component={About} />
+          <Route path={process.env.PUBLIC_URL + "/project/:id/"} component={Project} />
         </Switch>
       </div>
     </Router>
