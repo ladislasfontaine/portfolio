@@ -13,6 +13,8 @@ function Project({ match }) {
   window.setInterval(() => {
     const diapoImages = document.querySelector(".diapoImages");
     
+    if (!diapoImages)
+      return
     if (diapoImages.lastChild.style.opacity === "1") {
       diapoImages.lastChild.style.opacity = "0";
       diapoImages.firstChild.style.opacity = "1"; 
@@ -75,11 +77,6 @@ function Project({ match }) {
           <h4>Source Code <br />& Website</h4>
           <span className="line">—</span>
         </div>
-        {currentProject.urlWebsite &&
-          <a href={currentProject.urlWebsite} target="_blank" rel="noopener noreferrer">
-            <div className="svgIcon svgSite"></div>
-          </a>
-        }
         {currentProject.urlGithub.client &&
           <a href={currentProject.urlGithub.client} target="_blank" rel="noopener noreferrer">
             <div className="svgIcon svgHtml"></div>
@@ -88,6 +85,11 @@ function Project({ match }) {
         {currentProject.urlGithub.server &&
           <a href={currentProject.urlGithub.server} target="_blank" rel="noopener noreferrer">
             <div className="svgIcon svgHtml"></div>
+          </a>
+        }
+        {currentProject.urlWebsite &&
+          <a href={currentProject.urlWebsite} target="_blank" rel="noopener noreferrer">
+            <div className="svgIcon svgSite"></div>
           </a>
         }
       </div>

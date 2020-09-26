@@ -14,7 +14,6 @@
 .projectMainImage {
   width: 57%;
   height: 21rem;
-  background-color: rgb(182, 237, 255);
   flex-shrink: 0;
   position: relative;
 }
@@ -71,6 +70,7 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
+  object-position: top left;
   visibility: visible;
   z-index: 1;
 }
