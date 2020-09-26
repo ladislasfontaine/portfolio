@@ -8,9 +8,20 @@ import Footer from "./Footer";
 
 function Project({ match }) {
   useEffect(() => {
-    // console.log(Constants.projects[match.params.id - 1])
-    // console.log(match.params.id)
-  }, []);
+  });
+
+  window.setInterval(() => {
+    const diapoImages = document.querySelector(".diapoImages");
+    
+    if (diapoImages.lastChild.style.opacity === "1") {
+      diapoImages.lastChild.style.opacity = "0";
+      diapoImages.firstChild.style.opacity = "1"; 
+    }
+    else {
+      diapoImages.lastChild.style.opacity = "1";
+      diapoImages.firstChild.style.opacity = "0"; 
+    }
+  }, 5000)
 
   const currentProject = Constants.projects[match.params.id - 1];
 
@@ -26,7 +37,11 @@ function Project({ match }) {
             {currentProject.shortDescription}
           </p>
         </div>
-        <div className="diapoImages"></div>
+        <div className="diapoImages">
+        {currentProject.diapoImages.map((image) =>
+          <img src={process.env.PUBLIC_URL + image} alt="diapo" />
+        )}
+        </div>
       </div>
 
       <div className="Banner Role">
@@ -88,6 +103,12 @@ function Project({ match }) {
           )}
         </ul>
       </div>
+
+      {currentProject.otherImages.map((image) =>
+        <div className="section screenshots">
+          <img src={process.env.PUBLIC_URL + image} alt="screenshot" />
+        </div>
+      )}
 
       <Footer project={currentProject} />
     </div>

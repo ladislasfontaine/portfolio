@@ -37,7 +37,7 @@ function Nav() {
         </li>
         <li>
           <Link
-            to="/about"
+            to="/about/"
             className="button about"
             onClick={handleActiveClass}
           >

@@ -42,11 +42,20 @@
 }
 
 .diapoImages {
+  position: relative;
   width: 93%;
   height: 100%;
   flex-grow: 1;
-  background-color: salmon;
   margin-left: 7%;
+}
+
+.diapoImages img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
+  transition: opacity 1.5s;
 }
 
 .Banner {
@@ -128,4 +137,8 @@ li {
   display: flex;
   flex-direction: column;
   align-items: baseline;
+}
+
+.screenshots img {
+  width: 100%;
 }
