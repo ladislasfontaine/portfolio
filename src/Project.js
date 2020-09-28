@@ -39,8 +39,8 @@ function Project({ match }) {
           </p>
         </div>
         <div className="diapoImages">
-        {currentProject.diapoImages.map((image) =>
-          <img src={process.env.PUBLIC_URL + image} alt="diapo" />
+        {currentProject.diapoImages.map((image, index) =>
+          <img src={process.env.PUBLIC_URL + image} alt="diapo" key={index + 1} />
         )}
         </div>
       </div>
@@ -52,19 +52,19 @@ function Project({ match }) {
         </div>
         <ol>
         {currentProject.roles.map((role, index) =>
-          <li><span className="primaryColor index">0{index + 1}</span> {role}</li>
+          <li key={index + 1}><span className="primaryColor index">0{index + 1}</span> {role}</li>
         )}
         </ol>
       </div>
 
       <div className="stack section">
         {currentProject.stack.map((category, index) => 
-          <div className="stackCategory">
+          <div className="stackCategory"  key={index + 1}>
             <h4>{Object.keys(category)[0]}</h4>
             <span className="line">—</span>
             <ul>
-              {Object.values(category)[0].map((techno) =>
-                <li>{techno}</li>
+              {Object.values(category)[0].map((techno, index) =>
+                <li  key={index + 1}>{techno}</li>
               )}
             </ul>
           </div>
@@ -99,14 +99,14 @@ function Project({ match }) {
           <span className="line">—</span>
         </div>
         <ul>
-          {currentProject.features.map((feature) =>
-            <li>{feature}</li>  
+          {currentProject.features.map((feature, index) =>
+            <li key={index + 1}>{feature}</li>  
           )}
         </ul>
       </div>
 
-      {currentProject.otherImages.map((image) =>
-        <div className="section screenshots">
+      {currentProject.otherImages.map((image, index) =>
+        <div className="section screenshots" key={index + 1}>
           <img src={process.env.PUBLIC_URL + image} alt="screenshot" />
         </div>
       )}

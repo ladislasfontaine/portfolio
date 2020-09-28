@@ -18,7 +18,7 @@ export const projects = [
       "Admin panel to manage users, players, and events",
     ],
     stack: [
-      {Backend: ["NodeJS", "GraphQL", "MySQL", "Docker"]},
+      {Backend: ["NodeJS", "GraphQL", "MySQL"]},
       {Frontend: ["ReactJS", "NextJS", "Typescript", "Leaflet", "MaterialUI"]},
       {Devops: ["Docker", "GitLab"]},
     ],

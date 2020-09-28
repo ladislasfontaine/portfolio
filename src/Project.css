@@ -142,3 +142,95 @@ li {
 .screenshots img {
   width: 100%;
 }
+
+@media only screen and (max-width: 960px) {
+  .section {
+    margin: 0 8% 10rem 8%;
+  }
+  .Project h4 {
+    font-size: 2rem;
+  }
+  .Project p, .Project li {
+    font-size: 1.3rem;
+  }
+  .Title {
+    flex-direction: column;
+    height: auto;
+  }
+  .titleText {
+    width: 400px;
+    text-align: center;
+    margin: 0;
+  }
+  .diapoImages {
+    width: 400px;
+    height: 32rem;
+    margin: 2rem 0 0 0;
+  }
+  .Role {
+    margin-right: 0;
+  }
+  .links {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .section {
+    margin: 0 8% 5rem 8%;
+  }
+  .Project h4 {
+    font-size: 1.6rem;
+  }
+  .Project p, .Project li {
+    font-size: 1.1rem;
+  }
+  .Title {
+    flex-direction: column;
+    height: auto;
+  }
+  .titleText {
+    width: 250px;
+    text-align: center;
+    margin: 0;
+  }
+  .diapoImages {
+    width: 250px;
+    height: 25rem;
+    margin: 2rem 0 0 0;
+  }
+  .Role {
+    margin-right: 0;
+  }
+  .Role ol li {
+    flex-direction: column;
+  }
+  .Role ol {
+    align-items: center;
+  }
+  .Role .index {
+    margin-right: 0;
+  }
+  .links {
+    margin-left: 0;
+  }
+  .stack {
+    flex-direction: column;
+    align-items: center;
+  }
+  .stackCategory {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .stackCategory ul {
+    align-items: center;
+  }
+  .svgIcon {
+    width: 2rem;
+    height: 2rem;
+  }
+  .Banner {
+    text-align: center;
+    flex-direction: column;
+  }
+}
