@@ -2,28 +2,27 @@ import React, { useEffect } from "react";
 import "./App.css";
 import "./Project.css";
 import "./Work";
-// import { Link } from 'react-router-dom'
 import * as Constants from "./constants";
 import Footer from "./Footer";
 
 function Project({ match }) {
   useEffect(() => {
-  });
-
-  window.setInterval(() => {
-    const diapoImages = document.querySelector(".diapoImages");
+    const timer = setInterval(() => {
+      const diapoImages = document.querySelector(".diapoImages");
     
-    if (!diapoImages)
-      return
-    if (diapoImages.lastChild.style.opacity === "1") {
-      diapoImages.lastChild.style.opacity = "0";
-      diapoImages.firstChild.style.opacity = "1"; 
-    }
-    else {
-      diapoImages.lastChild.style.opacity = "1";
-      diapoImages.firstChild.style.opacity = "0"; 
-    }
-  }, 5000)
+      if (!diapoImages)
+        return
+      if (diapoImages.lastChild.style.opacity === "1") {
+        diapoImages.lastChild.style.opacity = "0";
+        diapoImages.firstChild.style.opacity = "1"; 
+      }
+      else {
+        diapoImages.lastChild.style.opacity = "1";
+        diapoImages.firstChild.style.opacity = "0"; 
+      }
+    }, 5000);
+    return () => clearInterval(timer);
+  });
 
   const currentProject = Constants.projects[match.params.id - 1];
 
