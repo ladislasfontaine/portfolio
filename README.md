@@ -1,11 +1,10 @@
 
 # Portfolio 💻
 
-[ladislasfontaine.com](https://portfolio.ladislasfontaine.com){:target="_blank"}
-%md <a href="https://portfolio.ladislasfontaine.com" target="_blank">ladislasfontaine.com</a>
+`[ladislasfontaine.com](https://portfolio.ladislasfontaine.com)`
 
 * built using ReactJS
-* deployed using github pages
+* deployed using Github Pages
 
 ## To launch it locally:
 * npm install
@@ -13,4 +12,4 @@
 * ready in [http://localhost:3000](http://localhost:3000)
 
 ## Tests:
-* to come
+* to come...
