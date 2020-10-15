@@ -20,7 +20,7 @@ function Project({ match }) {
         diapoImages.lastChild.style.opacity = "1";
         diapoImages.firstChild.style.opacity = "0"; 
       }
-    }, 5000);
+    }, 3000);
     return () => clearInterval(timer);
   });
 

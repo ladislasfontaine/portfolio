@@ -53,7 +53,7 @@ function Nav() {
             rel="noopener noreferrer"
           >
             <img
-              src={process.env.PUBLIC_URL + "/github-icon.png"}
+              src={process.env.PUBLIC_URL + "/icon/github-icon.png"}
               alt="GitHub"
             />
           </a>
@@ -66,7 +66,7 @@ function Nav() {
             rel="noopener noreferrer"
           >
             <img
-              src={process.env.PUBLIC_URL + "/malt.png"}
+              src={process.env.PUBLIC_URL + "/icon/malt.png"}
               alt="Malt"
             />
           </a>
@@ -79,7 +79,7 @@ function Nav() {
             rel="noopener noreferrer"
           >
             <img
-              src={process.env.PUBLIC_URL + "/linkedin.png"}
+              src={process.env.PUBLIC_URL + "/icon/linkedin.png"}
               alt="Linkedin"
             />
           </a>
@@ -89,7 +89,7 @@ function Nav() {
             href="mailto:fontaine.ladislas@gmail.com"
             rel="noopener noreferrer"
           >
-            <img src={process.env.PUBLIC_URL + "/mail-icon.svg"} alt="Email" />
+            <img src={process.env.PUBLIC_URL + "/icon/mail-icon.svg"} alt="Email" />
           </a>
         </li>
       </ul>

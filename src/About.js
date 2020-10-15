@@ -20,7 +20,7 @@ function About() {
 
       <div className="aboutSection">
         <img
-          src={process.env.PUBLIC_URL + "/about/about-bg-1.png"}
+          src={process.env.PUBLIC_URL + "/about/about-bg-1.jpg"}
           alt="Man surfing"
           className="backgroundImage"
         />
@@ -42,7 +42,7 @@ function About() {
 
       <div className="aboutSection">
         <img
-          src={process.env.PUBLIC_URL + "/about/about-bg-2.png"}
+          src={process.env.PUBLIC_URL + "/about/about-bg-2.jpg"}
           alt="Man surfing"
           className="backgroundImage"
         />
@@ -64,7 +64,7 @@ function About() {
 
       <div className="aboutSection">
         <img
-          src={process.env.PUBLIC_URL + "/about/42_cluster.jpg"}
+          src={process.env.PUBLIC_URL + "/about/about-bg-3.jpg"}
           alt="Man surfing"
           className="backgroundImage"
         />
@@ -86,19 +86,12 @@ function About() {
 
       <div className="aboutSection">
         <img
-          src={process.env.PUBLIC_URL + "/about/about-bg-3.png"}
+          src={process.env.PUBLIC_URL + "/about/about-bg-4.jpg"}
           alt="Man surfing"
           className="backgroundImage"
         />
         <div className="aboutSectionBackground lighterBackground" />
         <div className="aboutSectionContent">
-          <div className="smallImageBackground">
-            <img
-              src={process.env.PUBLIC_URL + "/about/coding.jpg"}
-              alt="Avatar"
-              className="smallImage coding"
-            />
-          </div>
           <div className="aboutSectionText">
             <h5 className="green">Love building</h5>
             <h4>Websites & Softwares</h4>

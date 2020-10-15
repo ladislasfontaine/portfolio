@@ -22,7 +22,7 @@ export const projects = [
       {Frontend: ["ReactJS", "NextJS", "Typescript", "Leaflet", "MaterialUI"]},
       {Devops: ["Docker", "GitLab"]},
     ],
-    mainImage: "/ouaaa/1.png",
+    mainImage: "/work/ouaaa.png",
     diapoImages: ["/ouaaa/diapo_1.jpg", "/ouaaa/diapo_2.jpg"],
     otherImages: ["/ouaaa/1.png", "/ouaaa/2.png", "/ouaaa/3.png"],
     urlGithub: {
@@ -53,7 +53,7 @@ export const projects = [
       {Frontend: ["HTML", "CSS", "Javascript", "Bootstrap"]},
       {Devops: ["Heroku", "GitHub"]},
     ],
-    mainImage: "/coach_me/1.png",
+    mainImage: "/work/coach_me.png",
     diapoImages: ["/coach_me/diapo_1.jpg", "/coach_me/diapo_2.jpg"],
     otherImages: ["/coach_me/1.png", "/coach_me/2.png", "/coach_me/3.png"],
     urlGithub: {
@@ -83,7 +83,7 @@ export const projects = [
       {Frontend: ["HTML", "CSS", "Javascript", "Bootstrap"]},
       {Devops: ["GitHub", "Heroku"]},
     ],
-    mainImage: "/event_bdx/1.png",
+    mainImage: "/work/event_bdx.png",
     diapoImages: ["/event_bdx/diapo_1.jpg", "/event_bdx/diapo_2.jpg"],
     otherImages: ["/event_bdx/1.png", "/event_bdx/2.png"],
     urlGithub: {
@@ -112,7 +112,7 @@ export const projects = [
       {Frontend: ["ReactJS"]},
       {Devops: ["GitHub"]},
     ],
-    mainImage: "/memory_game/2.png",
+    mainImage: "/work/memory_game.png",
     diapoImages: ["/memory_game/diapo_1.jpg", "/memory_game/diapo_2.jpg"],
     otherImages: ["/memory_game/1.png", "/memory_game/2.png", "/memory_game/3.png", "/memory_game/4.png"],
     urlGithub: {
