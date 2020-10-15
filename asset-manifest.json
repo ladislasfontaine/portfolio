@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f6954fa.chunk.css",
-    "main.js": "/static/js/main.c39667c3.chunk.js",
-    "main.js.map": "/static/js/main.c39667c3.chunk.js.map",
+    "main.css": "/static/css/main.428c0cb3.chunk.css",
+    "main.js": "/static/js/main.d91914a0.chunk.js",
+    "main.js.map": "/static/js/main.d91914a0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/js/2.128b0b47.chunk.js": "/static/js/2.128b0b47.chunk.js",
     "static/js/2.128b0b47.chunk.js.map": "/static/js/2.128b0b47.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.16074e9098c5fe132af314a71bc51cde.js": "/precache-manifest.16074e9098c5fe132af314a71bc51cde.js",
+    "precache-manifest.b6f0831b705fff77d713d2e7fa789586.js": "/precache-manifest.b6f0831b705fff77d713d2e7fa789586.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.5f6954fa.chunk.css.map": "/static/css/main.5f6954fa.chunk.css.map",
+    "static/css/main.428c0cb3.chunk.css.map": "/static/css/main.428c0cb3.chunk.css.map",
     "static/js/2.128b0b47.chunk.js.LICENSE.txt": "/static/js/2.128b0b47.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/AkkuratPro-Regular.b74a2a12.woff",
     "static/media/Project.css": "/static/media/website.e5cc1787.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/js/2.128b0b47.chunk.js",
-    "static/css/main.5f6954fa.chunk.css",
-    "static/js/main.c39667c3.chunk.js"
+    "static/css/main.428c0cb3.chunk.css",
+    "static/js/main.d91914a0.chunk.js"
   ]
 }
