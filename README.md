@@ -1,9 +1,9 @@
 
 # Portfolio 💻
 
-`[ladislasfontaine.com](https://portfolio.ladislasfontaine.com)`
+[ladislasfontaine.com](https://portfolio.ladislasfontaine.com)
 
-* built using ReactJS
+* developed using ReactJS
 * deployed using Github Pages
 
 ## To launch it locally:
