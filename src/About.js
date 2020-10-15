@@ -13,7 +13,7 @@ function About() {
             Ladislas<span className="green">.</span>
           </h1>
           <p className="subTitle green">
-            Working hard to be a Backend Developer
+            Working hard to be a Fullstack Developer
           </p>
         </div>
       </div>

@@ -46,7 +46,7 @@ function Nav() {
         </li>
       </ul>
       <ul className="nav-right">
-        <li className="icon icon-github">
+        <li className="icon icon-size">
           <a
             href="https://github.com/ladislasfontaine"
             target="_blank"
@@ -55,6 +55,32 @@ function Nav() {
             <img
               src={process.env.PUBLIC_URL + "/github-icon.png"}
               alt="GitHub"
+            />
+          </a>
+        </li>
+        <li className="icon icon-size icon-white">
+          <div className="icon-black">
+          <a
+            href="https://www.malt.fr/profile/ladislasfontaine"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={process.env.PUBLIC_URL + "/malt.png"}
+              alt="Malt"
+            />
+          </a>
+          </div>
+        </li>
+        <li className="icon icon-size icon-white">
+          <a
+            href="https://www.linkedin.com/in/ladislasfontaine/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={process.env.PUBLIC_URL + "/linkedin.png"}
+              alt="Linkedin"
             />
           </a>
         </li>
