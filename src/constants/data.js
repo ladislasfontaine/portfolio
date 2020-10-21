@@ -27,7 +27,7 @@ export const projects = [
     otherImages: ["/ouaaa/1.png", "/ouaaa/2.png", "/ouaaa/3.png"],
     urlGithub: {
       server: "https://gitlab.acteursdelatransition.fr/acteurs-de-la-transition/serveur",
-      client: "https://gitlab.acteursdelatransition.fr/root/acteursdelatransition",
+      client: "https://gitlab.acteursdelatransition.fr/acteurs-de-la-transition/acteursdelatransition",
     },
     urlWebsite: "https://ouaaa.org/",
   },
