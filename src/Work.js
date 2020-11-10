@@ -6,14 +6,17 @@ import { Link } from "react-router-dom";
 import * as Constants from "./constants";
 
 function Work() {
+
+  const projects = Constants.projects.slice().reverse();
+
   return (
     <div className="allProjectsContainer">
-      {Constants.projects.map(project =>
+      {projects.map(project =>
         <div className="oneProjectContainer" key={project.id}>
           <Link to={`${process.env.PUBLIC_URL}/project/${project.id}`} className="projectMainImage">
             <img src={`${project.mainImage}`} alt="Main" className="main" />
             <div className="projectLabel">
-              CASE STUDY 0{project.id}
+              CASE STUDY 0{projects.length - project.id + 1}
             </div>
             <img src="shadow.png" alt="Shadow" className="shadow" />
           </Link>

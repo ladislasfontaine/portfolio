@@ -11,5 +11,6 @@
 * npm start
 * ready in [http://localhost:3000](http://localhost:3000)
 
-## Tests:
-* to come...
+## To do:
+* add JS animations
+* update from time to time...

@@ -13,7 +13,7 @@ function About() {
             Ladislas<span className="green">.</span>
           </h1>
           <p className="subTitle green">
-            Working hard to be a Fullstack Developer
+            I'm a Fullstack Developer
           </p>
         </div>
       </div>
@@ -43,7 +43,7 @@ function About() {
       <div className="aboutSection">
         <img
           src={process.env.PUBLIC_URL + "/about/about-bg-2.jpg"}
-          alt="Man surfing"
+          alt="Street of Lille"
           className="backgroundImage"
         />
         <div className="aboutSectionBackground" />
@@ -65,7 +65,7 @@ function About() {
       <div className="aboutSection">
         <img
           src={process.env.PUBLIC_URL + "/about/about-bg-3.jpg"}
-          alt="Man surfing"
+          alt="42 Paris cluster"
           className="backgroundImage"
         />
         <div className="aboutSectionBackground" />
@@ -87,14 +87,21 @@ function About() {
       <div className="aboutSection">
         <img
           src={process.env.PUBLIC_URL + "/about/about-bg-4.jpg"}
-          alt="Man surfing"
+          alt="Working team"
           className="backgroundImage"
         />
         <div className="aboutSectionBackground lighterBackground" />
         <div className="aboutSectionContent">
+          <div className="smallImageBackground">
+            <img
+              src={process.env.PUBLIC_URL + "/about/at_logo.png"}
+              alt="Avatar"
+              className="smallImage Logo42"
+            />
+          </div>
           <div className="aboutSectionText">
-            <h5 className="green">Love building</h5>
-            <h4>Websites & Softwares</h4>
+            <h5 className="green">Working at</h5>
+            <h4>AT Internet</h4>
           </div>
         </div>
       </div>
@@ -104,7 +111,7 @@ function About() {
         rel="noopener noreferrer"
       >
         <div className="lastAboutSection">
-          <p>Let's talk about your projects</p>
+          <p>Let's talk...</p>
         </div>
       </a>
 
