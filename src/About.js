@@ -111,7 +111,7 @@ function About() {
         rel="noopener noreferrer"
       >
         <div className="lastAboutSection">
-          <p>Let's talk...</p>
+          <p>Let's talk about your projects</p>
         </div>
       </a>
 
