@@ -51,7 +51,7 @@ export const projects = [
     ],
     mainImage: "/work/event_bdx.png",
     diapoImages: ["/event_bdx/diapo_1.jpg", "/event_bdx/diapo_2.jpg"],
-    otherImages: ["/event_bdx/1.png", "/event_bdx/2.png"],
+    otherImages: ["/event_bdx/1.jpg", "/event_bdx/2.jpg"],
     urlGithub: {
       server: "https://github.com/ladislasfontaine/bdx_event_project",
       client: "",
@@ -82,7 +82,7 @@ export const projects = [
     ],
     mainImage: "/work/coach_me.png",
     diapoImages: ["/coach_me/diapo_1.jpg", "/coach_me/diapo_2.jpg"],
-    otherImages: ["/coach_me/1.png", "/coach_me/2.png", "/coach_me/3.png"],
+    otherImages: ["/coach_me/1.png", "/coach_me/2.png", "/coach_me/3.jpg"],
     urlGithub: {
       server: "https://github.com/ladislasfontaine/coach_me_project",
       client: "",
@@ -114,7 +114,7 @@ export const projects = [
     ],
     mainImage: "/work/ouaaa.png",
     diapoImages: ["/ouaaa/diapo_1.jpg", "/ouaaa/diapo_2.jpg"],
-    otherImages: ["/ouaaa/1.png", "/ouaaa/2.png", "/ouaaa/3.png"],
+    otherImages: ["/ouaaa/1.png", "/ouaaa/2.jpg", "/ouaaa/3.png"],
     urlGithub: {
       server: "https://gitlab.acteursdelatransition.fr/acteurs-de-la-transition/serveur",
       client: "https://gitlab.acteursdelatransition.fr/acteurs-de-la-transition/acteursdelatransition",
