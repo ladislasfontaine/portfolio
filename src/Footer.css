@@ -64,11 +64,12 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 3.4rem;
+  height: 4rem;
   cursor: pointer;
 }
 
 .footerTopButton img {
+  max-height: 20px;
   transform: rotate(-90deg);
   transition: transform .4s, opacity .4s;
   opacity: 0.5;
